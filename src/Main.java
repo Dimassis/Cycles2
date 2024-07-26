@@ -21,8 +21,7 @@ public class Main {
             i++;
         }
         System.out.println("");
-        while (i > 1) {
-            i--;
+        for (i = 10; i >= 1; i--) {
             System.out.print(i + " ");
         }
 
@@ -115,9 +114,9 @@ public class Main {
         int today = 1;
         int dayOfWeek = 4;
         while (today <= 31) {
-            if (dayOfWeek == 5)
+            if (dayOfWeek == 5) {
                 System.out.println("Сегодня пятница " + today + " число нужно подготовить отчет");
-
+            }
             dayOfWeek++;
             if (dayOfWeek == 8)
                 dayOfWeek = 1;
